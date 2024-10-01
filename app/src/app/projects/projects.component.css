@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+@media screen and (max-width: 500px)  {
+  #table{
+    background-color: red;
+  }
+}
+html {
+	scroll-behavior: smooth;
+}
+.img44{
+  height: 220px;
+  margin-left: 45%;
+}
+.projectstitle{
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  font-style: italic;
+  margin-left: 40%;
+
+}
+.img2{
+  margin-left: 60%;
+  height: 320px;
+  border-radius: 30px;
+}
+#table {
+  border: none;
+  margin-top: 13%;
+  width: 100%;
+  justify-content: center;
+  
+  
+}
+
+.img1{
+  width: 250px;
+  height: 200px;
+  border-radius: 12px;
+  margin-left: 25%;
+  object-fit: cover;
+  
+  
+}
+.img1:hover{
+  opacity: 80%;
+  transform: scale(1.1);
+    
+}
+
+.in-view {
+  margin-top: 20%;
+  opacity: 1;
+  transform: translatex(0);
+}
+
+.hr{
+  background-color: rgb(151, 98, 0);
+  margin-top: 70px;
+  width: 300px;
+  margin-left: 40%;
+  height: 5px;
+}
+@media only screen and (max-width: 768px){
+  .projectstitle{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-style: italic;
+    margin-left: 40%;
+  
+  }
+  .img44{
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+  }
+  .img2{
+    margin-top: 2%;
+    margin-left: 35%;
+    height: 120px;
+    border-radius: 30px;
+    width: 150px;
+  }
+  .img1{
+    width: 150px;
+    height: 120px;
+    border-radius: 12px;
+    margin-left: 25%;
+    object-fit: cover;
+  }
+
+    
+  .img1:hover{
+    opacity: 80%;
+    transform: scale(1.1);
+      
+  }
+
+  #table {
+    border: none;
+    margin-top: 13%;
+    width: 100%;
+    justify-content: center;
+    
+    
+  }
+  .hr{
+    background-color: rgb(151, 98, 0);
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 30%;
+    height: 5px;
+  }
+
+}

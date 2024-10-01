@@ -1,0 +1,51 @@
+<div class="me"> <span class="intro1">About ME</span> <br><br>
+  <p >
+    I'm a Tunisian frontend developer. I started coding a few months ago and have completed several projects that
+  showcase my skills. If you need a personal website, I'm ready to assist you.
+  <br>
+  <br>
+  <br>
+  name:Ali Belhrak
+  <br>
+  <br>
+  country:Tunisia 
+  <br>
+  <br>
+  experience : 2 years
+  <br><br>
+  number: +21621992100
+
+
+  </p>
+</div>
+
+<h1 class="titleskills">Personal SkillS</h1>
+<img src="assets/images/1_zVnWJtyGOX_kUIDm6ccCfQ.gif" alt="" class="img">
+
+<table class="tab">
+  <td *ngFor="let skill of skills" >
+
+    <div class="skill">
+      
+      <div class="outer">
+        <div class="inter">
+          <div class="number">
+            {{skill.name }}<br>
+            {{ skill.value}}%
+
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+        <defs>
+          <linearGradient id="GradientColor">
+            <stop offset="0%" stop-color="#e91e63" />
+            <stop offset="100%" stop-color="#673ab7" />
+          </linearGradient>
+        </defs>
+        <circle cx="80" cy="80" r="70" stroke-linecap="round" [ngStyle]="getCircleStyle(skill)"></circle>
+      </svg>
+    </div>
+  </td>
+</table>
+<hr class="hr">

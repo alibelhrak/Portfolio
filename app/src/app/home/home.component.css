@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+html {
+	scroll-behavior: smooth;
+}
+.hr{
+  background-color: rgb(151, 98, 0);
+  margin-top: 70px;
+  width: 300px;
+  margin-left: 40%;
+  height: 5px;
+}
+.formintro{
+  width: 100%;
+  height: 100%;
+
+}
+.homeintro{
+  border-color: orange;
+}
+.img {
+  width: 450px;
+  height: 450px;
+  margin-left: 7%;
+  margin-top: 10%;
+  border-radius: 18px;
+}
+.hi{
+  color:#27296d;
+  margin-left: 40%;
+  margin-top: -20%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+}
+
+.me{
+  width: 800px;
+  height: 450px;
+  font-size:25px;
+  color:#27296d;
+  margin-left: 45%;
+  margin-right: 20%;
+  text-align: justify;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  margin-top: -30%;
+  background-color: aliceblue;
+  border-radius: 18px;
+  border-style: solid;
+  border-color: orange;
+}
+.img33{
+  width: 250px;
+  height: 140px;
+  margin-left: 50%;
+  margin-top: -7%;
+  border-radius: 40%;
+}
+
+/* Responsive styles for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  .img {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+    margin-top: 40%;
+    margin-left: 2%;
+  }
+
+  h1, p {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .me{
+    width: 300px;
+    height: 400px;
+    font-size:13px;
+    color:#27296d;
+    margin-left:90px;
+    text-align: justify;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    margin-top: -50%;
+    background-color: aliceblue;
+    border-radius: 18px;
+    border-style: solid;
+    border-color: orange;
+  }
+  .img33{
+    width: 100px;
+    height: 100px;
+    margin-left: 50%;
+    margin-top: -4%;
+    border-radius: 40%;
+  }
+  .hr{
+    background-color: rgb(151, 98, 0);
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 30%;
+    height: 5px;
+  }
+}

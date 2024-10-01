@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/jmh-ss');
+@import url('https://fonts.cdnfonts.com/css/hittedal-sans');
+section#contact {
+  margin-top: 10%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+section#contact .section-heading {
+  color: #fff;
+  margin-top: 10%;
+  font-size: 60px;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+section#contact .form-group {
+  margin-bottom: 25px;
+  margin-top: 5%;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 20px;
+
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+ 
+}
+
+section#contact .form-group textarea.form-control {
+  height: 236px;
+
+}
+
+section#contact .form-control:focus {
+  
+  border-color: #1ee2e7;
+  box-shadow: none;
+}
+.section-subheading {
+  color: aliceblue;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+section#contact::-webkit-input-placeholder {
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  font-weight: bolder;
+  color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  color: #bbb;
+
+}
+
+section#contact::-moz-placeholder {
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+  text-transform: uppercase;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700;
+  color: #bbb;
+}
+
+section#contact .text-danger {
+  color: #e74c3c;
+}

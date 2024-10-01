@@ -1,0 +1,105 @@
+:root {
+  --background-color:#cadefc;
+  --text-color: #000;
+ }
+ 
+ .dark-mode {
+  --background-color: #272343;
+  --text-color: #fff;
+ }
+ body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+ }
+ [data-theme="dark"]{--background-color: #272343;
+  --text-color: rgb(255, 255, 255); }
+  .btn {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+  }
+  
+  .btn span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+  }
+  
+  .btn-text-one {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn-text-two {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .btn:hover .btn-text-one {
+    top: -100%;
+  }
+  
+  .btn:hover .btn-text-two {
+    top: 50%;
+  }
+  @media only screen and (max-width: 768px){
+    .btn {
+      width: 80px;
+      height: 50px;
+      background: linear-gradient(to top, #00154c, #12376e, #23487f);
+      color: #fff;
+      border-radius: 50px;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+    
+    .btn span {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: top 0.5s;
+    }
+    
+    .btn-text-one {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+    
+    .btn-text-two {
+      position: absolute;
+      width: 100%;
+      top: 150%;
+      left: 0;
+      transform: translateY(-50%);
+    }
+    
+    .btn:hover .btn-text-one {
+      top: -100%;
+    }
+    
+    .btn:hover .btn-text-two {
+      top: 50%;
+    }
+  }
