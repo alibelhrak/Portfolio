@@ -1,2 +1,2 @@
 👻 my personal portfolio  !
-![msedge_VRDv199vBu](https://github.com/user-attachments/assets/0da5bc76-ee35-4746-a9a6-24bbcab12bc9)
+![msedge_VRDv199vBu](https://github.com/user-attachments/assets/aa838ea9-f7ba-4bab-a5d4-7714c0c29ba6)
