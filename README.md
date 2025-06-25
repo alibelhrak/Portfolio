@@ -56,4 +56,6 @@ Thanks for stopping by! 🙌👋
 
 🔗 Live Demo (replace with your actual link)
 
-This project showcases my skills, projects, and journey as a developer 👨‍💻✨.![msedge_VRDv199vBu](https://github.com/user-attachments/assets/aa838ea9-f7ba-4bab-a5d4-7714c0c29ba6)
+This project showcases my skills, projects, and journey as a developer 👨‍💻✨.!
+
+[msedge_VRDv199vBu](https://github.com/user-attachments/assets/aa838ea9-f7ba-4bab-a5d4-7714c0c29ba6)
